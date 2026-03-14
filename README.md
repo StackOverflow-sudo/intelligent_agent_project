@@ -195,3 +195,7 @@ learning for bidding - More advanced scheduling heuristics
 COMP6203 Intelligent Agents -- Group 1
 
 University of Southampton
+
+Code writting: Ruiqi Wang
+draft report: Ruiqi Wang
+final report: Group 1
