@@ -141,10 +141,7 @@ Example project structure:
 
     project/
     │
-    ├── company_agent.py
-    ├── scheduling.py
-    ├── bidding_strategy.py
-    ├── market_learning.py
+    ├── groupn.py(agent source code)
     │
     ├── main_playground.py
     │
