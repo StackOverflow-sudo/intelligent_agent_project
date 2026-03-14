@@ -1,8 +1,200 @@
-Imagine you are running a maritime shipping company that transports oil. You have a fleet of tankers around the world and you are looking for customers who want their oil to be transported from one port to another. Currently, the possible opportunities to transport cargoes, i.e. the oil, are as presented in Figure The refinery at Fawley (near Southampton) is looking for the cheapest shipper to transport two cargoes: one to Dublin and one to Rotterdam. You and your main competitor both have a vessel in Southampton and you now need to decide what price you would offer the refinery for the transportation of either cargo. One option is to calculate how much it will cost you to transport either cargo and offer that as your price. Mind that, if you offer to transport both and you will get the contract for both you will have to come back to Southampton once you have dropped of the first. Another consideration is that you know that soon another company will be looking for a shipping company to transport cargo from Rotterdam to Felixstowe. Hence, if you would get the contract to transport the cargo from Fawley to Rotterdam and the contract to transport the cargo from Rotterdam to Felixstowe, you can directly continue with transporting cargoes without travelling empty from one port to another.
+# COMP6203 Lab 4 -- Maritime Shipping Agent
 
-This example highlights the general setting of the tramp trade maritime shipping which we will consider in the labs as well as in the coursework. The labs will guide you to understand how this setting is reflected in our simulator MABLE and develop a simple shipping company agent that will bid for cargo opportunities and schedules the 3 transportation of those cargoes they win the contracts for. In any setting including the competition at the end of the coursework, all shipping companies will have the option to bid for cargo opportunities at cargo auctions at regular intervals. The shipping companies will have to decide how much to bid at these reverse second-price auctions considering their already existing transport commitments, the requirement to transport all won contracts, some knowledge of future auctions and knowledge of the competitors' fleets.
+## Overview
 
-## A first look at Mable
-MABLE is an agent-based maritime cargo transportation simulator written in python which only needs a few steps to be set up. The simulator allows to specify a setting with ports, a cargo market with one homogeneous continuous cargo, e.g. oil, and shipping companies. Once such a setting is specified and run, the simulator generates random cargo transportation opportunities that shipping companies can bid for to transport and then have to be transported from one port to another. For the labs and the coursework the world with the ports and the cargo market are already specified and all you need to do is define the behaviour of a shipping company.
+This project implements an autonomous trading agent for the **MABLE
+maritime shipping simulator**, developed as part of the **COMP6203
+Intelligent Agents coursework** at the University of Southampton.
 
-There are a few points about MABLE that it is good to be aware of. Firstly, MABLE was developed following the object-oriented programming paradigm, meaning that everything is an object, e.g. vessels, ports, cargoes. If you are new to the concept or unsure about how this looks like in python there are courses on LinkedIn learning. Secondly, MABLE is an event based simulator, meaning that time progresses in steps by events like a cargo auction happens, a vessel reaches a port or a vessel has transferred cargo. This will not affect your work as you will only need to specify in what order you vessels transport cargoes and MABLE will automatically translate that into events. 1.2.2 MABLE API MABLE's API is accessible under [MABLE API](https://mable-doc.netlify.app/)
+In this environment, shipping companies compete in **reverse
+second‑price auctions** for transportation contracts. Each agent must
+decide: - Which trades to bid on - What price to bid - How to schedule
+vessels to execute awarded contracts
+
+The key challenge is that **bidding and scheduling decisions are
+interdependent**: the cost of transporting a request depends on the
+current fleet schedule, vessel locations, and time-window constraints.
+
+------------------------------------------------------------------------
+
+## Environment
+
+The system uses the **MABLE simulator**, an event-based maritime
+logistics environment where:
+
+-   Cargo transportation opportunities appear periodically
+-   Companies submit bids for trades
+-   The lowest bidder wins but receives the **second-lowest bid
+    payment**
+-   Winning companies must transport the cargo using their fleet
+
+Ships must satisfy: - Cargo capacity constraints - Pickup and drop-off
+time windows - Fuel consumption costs
+
+------------------------------------------------------------------------
+
+## Key Features of Our Agent
+
+Our agent integrates the following components:
+
+1.  **Schedule‑Aware Cost Estimation**
+2.  **Adaptive Bidding Strategy**
+3.  **Online Market Learning**
+4.  **Profit‑Driven Post‑Auction Scheduling**
+
+------------------------------------------------------------------------
+
+## Agent Decision Workflow
+
+For each auction round the agent performs:
+
+1.  **Cost estimation** for incoming transportation requests
+2.  **Bid generation** based on estimated execution costs
+3.  **Market learning** from auction outcomes
+4.  **Schedule updates** for newly awarded contracts
+
+This design keeps bidding decisions aligned with scheduling feasibility.
+
+------------------------------------------------------------------------
+
+## Cost Estimation
+
+Instead of computing an optimal schedule (which is computationally
+expensive), the agent uses a **multi‑start insertion heuristic**:
+
+-   Multiple candidate schedules are generated using random insertion
+    orders
+-   Feasible schedules are evaluated
+-   The **Top‑K schedules** are selected
+-   Marginal insertion costs are estimated from these schedules
+
+This approach produces stable cost estimates while remaining
+computationally efficient.
+
+Outputs: - Marginal insertion cost m(r) - Schedule stability score p(r)
+
+------------------------------------------------------------------------
+
+## Bidding Strategy
+
+Bids combine: - Direct transportation cost proxy - Marginal insertion
+cost - Market competitiveness signal
+
+A **regime‑dependent pricing strategy** is used:
+
+  Market Condition   Strategy
+  ------------------ -------------------
+  Tight market       Conservative bids
+  Medium market      Balanced bids
+  Loose market       Aggressive bids
+
+Market strength is estimated using an **EWMA price signal** that
+dynamically adjusts bidding aggressiveness.
+
+------------------------------------------------------------------------
+
+## Market Learning
+
+Because competitors' bids are only partially observable, the agent
+learns from auction outcomes using:
+
+-   Price‑to‑cost ratio tracking
+-   Exponentially weighted moving averages (EWMA)
+-   Left‑censored learning from partial bid observations
+
+These updates allow the agent to adapt its bidding strategy over time.
+
+------------------------------------------------------------------------
+
+## Post‑Auction Scheduling
+
+When contracts are awarded, the agent integrates them into fleet
+schedules using **profit‑driven insertion**.
+
+A request is accepted only if:
+
+payment − additional_cost ≥ 0
+
+This avoids infeasible or loss‑making transportation plans.
+
+------------------------------------------------------------------------
+
+## Experimental Evaluation
+
+The agent was evaluated against several baseline competitors:
+
+-   **MyArchEnemy** -- fixed profit margin agent
+-   **TheScheduler** -- heuristic scheduling agent
+-   **groupn1** -- adaptive profit agent
+
+Experiments varied: - Market competitiveness - Fleet size
+
+Results indicate: - Stable performance across environments - Increasing
+income in less competitive markets - Low penalty rates due to reliable
+scheduling feasibility
+
+------------------------------------------------------------------------
+
+## Project Structure
+
+Example project structure:
+
+    project/
+    │
+    ├── company_agent.py
+    ├── scheduling.py
+    ├── bidding_strategy.py
+    ├── market_learning.py
+    │
+    ├── run_simulation.py
+    │
+    ├── report_group1.pdf
+    ├── README.md
+
+------------------------------------------------------------------------
+
+## Installation
+
+Install the MABLE simulator:
+
+    pip install mable
+
+Ensure the file **mable_resources.zip** is located in the project
+directory.
+
+------------------------------------------------------------------------
+
+## Running the Simulation
+
+Run the simulation using:
+
+    python run_simulation.py
+
+After execution a metrics file will be generated:
+
+    metrics_competition_<id>.json
+
+To view summary results:
+
+    mable overview metrics_competition_<id>.json
+
+------------------------------------------------------------------------
+
+## Limitations
+
+Current limitations include:
+
+-   Scheduling heuristics may degrade with large fleets
+-   Market learning may react slowly to sudden strategy shifts
+-   Early auction rounds may be overly conservative due to limited data
+
+Future improvements could include: - Opponent modelling - Reinforcement
+learning for bidding - More advanced scheduling heuristics
+
+------------------------------------------------------------------------
+
+## Authors
+
+COMP6203 Intelligent Agents -- Group 1
+
+University of Southampton
