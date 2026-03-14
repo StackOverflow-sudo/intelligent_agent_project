@@ -1,0 +1,13 @@
+[Company1] inform round=1 trades=5 cand=4 bids=4 mkt_ratio=2.000 s=0.00 p_select=0.45 w_abs=0.65 markup=0.10 min_profit=0.06 safety=0.14 bid_scale=1.000 low_ratio=1.25 pr_med=1.00 mc/C_med=1.14
+[Company1] inform round=2 trades=5 cand=5 bids=5 mkt_ratio=2.173 s=0.03 p_select=0.44 w_abs=0.64 markup=0.10 min_profit=0.06 safety=0.14 bid_scale=1.010 low_ratio=1.54 pr_med=1.00 mc/C_med=1.00
+[Company1] inform round=3 trades=5 cand=2 bids=2 mkt_ratio=2.296 s=0.05 p_select=0.44 w_abs=0.64 markup=0.10 min_profit=0.06 safety=0.14 bid_scale=1.020 low_ratio=1.88 pr_med=1.00 mc/C_med=4.37
+[Company1] inform round=4 trades=5 cand=4 bids=4 mkt_ratio=2.332 s=0.06 p_select=0.44 w_abs=0.64 markup=0.10 min_profit=0.06 safety=0.13 bid_scale=1.030 low_ratio=2.00 pr_med=1.00 mc/C_med=2.47
+[Company1] inform round=5 trades=5 cand=4 bids=4 mkt_ratio=2.562 s=0.09 p_select=0.43 w_abs=0.63 markup=0.09 min_profit=0.06 safety=0.13 bid_scale=1.041 low_ratio=2.40 pr_med=1.00 mc/C_med=1.98
+[Company1] inform round=6 trades=5 cand=4 bids=4 mkt_ratio=2.502 s=0.08 p_select=0.43 w_abs=0.63 markup=0.09 min_profit=0.06 safety=0.13 bid_scale=1.051 low_ratio=2.38 pr_med=1.00 mc/C_med=2.23
+[Company1] inform round=7 trades=5 cand=3 bids=3 mkt_ratio=2.401 s=0.07 p_select=0.43 w_abs=0.63 markup=0.09 min_profit=0.06 safety=0.13 bid_scale=1.062 low_ratio=2.74 pr_med=1.00 mc/C_med=25.62
+[Company1] inform round=8 trades=5 cand=1 bids=1 mkt_ratio=3.010 s=0.17 p_select=0.41 w_abs=0.61 markup=0.09 min_profit=0.05 safety=0.12 bid_scale=1.072 low_ratio=2.74 pr_med=1.00 mc/C_med=60.95
+[Company1] inform round=9 trades=5 cand=4 bids=4 mkt_ratio=2.927 s=0.15 p_select=0.41 w_abs=0.61 markup=0.09 min_profit=0.05 safety=0.12 bid_scale=1.083 low_ratio=2.74 pr_med=1.00 mc/C_med=1.80
+[Company1] inform round=10 trades=5 cand=4 bids=4 mkt_ratio=2.782 s=0.13 p_select=0.42 w_abs=0.62 markup=0.09 min_profit=0.05 safety=0.13 bid_scale=1.094 low_ratio=2.74 pr_med=1.00 mc/C_med=5.26
+[Company1] inform round=11 trades=5 cand=2 bids=2 mkt_ratio=2.801 s=0.13 p_select=0.42 w_abs=0.62 markup=0.09 min_profit=0.05 safety=0.13 bid_scale=1.094 low_ratio=3.06 pr_med=1.00 mc/C_med=5.10
+[Company1] inform round=12 trades=5 cand=4 bids=4 mkt_ratio=2.859 s=0.14 p_select=0.41 w_abs=0.61 markup=0.09 min_profit=0.05 safety=0.13 bid_scale=1.094 low_ratio=3.06 pr_med=1.00 mc/C_med=2.36
+[Company1] inform round=13 trades=5 cand=4 bids=4 mkt_ratio=2.708 s=0.12 p_select=0.42 w_abs=0.62 markup=0.09 min_profit=0.06 safety=0.13 bid_scale=1.094 low_ratio=2.97 pr_med=0.94 mc/C_med=3.46

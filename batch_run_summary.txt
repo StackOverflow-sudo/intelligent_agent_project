@@ -1,0 +1,12 @@
+Batch run summary (n=1, seed0=0, target=Company1)
+
+Per-seed results:
+[seed=0] wins=20 income=-2841.152 rev=49004.284 cost=51845.436 pen=0.000  metrics=metrics_competition_1982121568592_2026-01-09-13-02-22.json
+
+=== SUMMARY (mean ± std) ===
+wins   : 20.00 ± 0.00
+income : -2841.15 ± 0.00
+penalty: 0.00 ± 0.00
+revenue: 49004.28 ± 0.00
+cost   : 51845.44 ± 0.00
+inc/win: -142.06 ± 0.00

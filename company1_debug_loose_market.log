@@ -1,0 +1,478 @@
+[2026-01-09 12:14:29] [ROUND] t=0 r=1 trades=5 mkt_ewma=2.000 low_ewma=1.250 s=0.00
+[2026-01-09 12:14:29] [PARAM] s=0.00 p_sel=0.45 max_bids=20 markup=0.100 safety=0.140 undercut=0.000 min_profit=0.060 bid_scale=1.000 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.76 q50=1.10 q90=15.20
+[2026-01-09 12:14:29] [TIGHT_OVR] tight market
+[2026-01-09 12:14:30] [TOPK] got=8 best_sched=4 best_total_mc=2819.9 avg_sched=4.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:30] [MC_STATS] schedulable=4/5 mc/C min=1.00 med=1.29 p90=1.29 max=1.77 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:30] [FILTER_SUM] total=5 have_mc=4 pass_p=4 snipes=0 cand_pre_merge=4 final=4/20
+[2026-01-09 12:14:30] [FILTER_FAIL] reason=no_mc trade=Port<Nakhodka-eaf8326ce14b (42.78621, 132.92236)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|168|107161.57595757782
+[2026-01-09 12:14:30] [INS_SUM] ins_fail=373 ins_warn=167 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:30] [INS_FAIL] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:30] [INS_FAIL] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:30] [INS_FAIL] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:30] [INS_FAIL] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:30] [INS_FAIL] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-V-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:30] [INS_FAIL] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:30] [INS_FAIL] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-V-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:30] [INS_FAIL] trade=Port<Ceuta-e2de790bdd0f (35.89482, -5.31416)>|Port<Porto Acu-db9c1341eaaa (-21.83813, -40.99457)>|0|17012.83946569948 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:30] [INS_WARN] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-A-0 ips=1 mc/C=1.61 mc=465.2 C=289.0 tail=False
+[2026-01-09 12:14:30] [INS_WARN] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 vessel=HMS-A-1 ips=1 mc/C=1.00 mc=289.0 C=289.0 tail=False
+[2026-01-09 12:14:30] [INS_WARN] trade=Port<Ceuta-e2de790bdd0f (35.89482, -5.31416)>|Port<Porto Acu-db9c1341eaaa (-21.83813, -40.99457)>|0|17012.83946569948 vessel=HMS-A-2 ips=1 mc/C=1.00 mc=628.6 C=628.6 tail=False
+[2026-01-09 12:14:30] [INS_WARN] trade=Port<Ceuta-e2de790bdd0f (35.89482, -5.31416)>|Port<Porto Acu-db9c1341eaaa (-21.83813, -40.99457)>|0|17012.83946569948 vessel=HMS-V-2 ips=1 mc/C=4.09 mc=2568.6 C=628.6 tail=False
+[2026-01-09 12:14:30] [INS_WARN] trade=Port<Cape May-485c180b3d95 (38.94984, -74.89174)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|0|50373.04434787636 vessel=HMS-S-0 ips=1 mc/C=1.01 mc=509.7 C=502.5 tail=False
+[2026-01-09 12:14:30] [INS_WARN] trade=Port<Cape May-485c180b3d95 (38.94984, -74.89174)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|0|50373.04434787636 vessel=HMS-S-2 ips=1 mc/C=1.00 mc=502.5 C=502.5 tail=False
+[2026-01-09 12:14:30] [BIDS] n=4 min=289.88 med=1116.96 max=1307.21 s=0.00 p_sel=0.45 markup=0.100 safety=0.140 undercut=0.000
+[2026-01-09 12:14:30] [BID_SAMPLE] trade=Port<Cape May-485c180b3d95 (38.94984, -74.89174)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|0|50373.04434787636 pr=1.00 C=502.5 mc=502.5 mc/C=1.00 bid=504.1 bid/C=1.00 margin=0.003 undercut=0
+[2026-01-09 12:14:30] [BID_SAMPLE] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 pr=1.00 C=289.0 mc=289.0 mc/C=1.00 bid=289.9 bid/C=1.00 margin=0.003 undercut=0
+[2026-01-09 12:14:30] [BID_SAMPLE] trade=Port<Port Said-73e707725c62 (31.25094, 32.30507)>|Port<Tanjung Pelepas-71ae886ba35d (1.34033, 103.54542)>|336|68561.73410929955 pr=1.00 C=1014.0 mc=1303.3 mc/C=1.29 bid=1307.2 bid/C=1.29 margin=0.003 undercut=0
+[2026-01-09 12:14:30] [BID_SAMPLE] trade=Port<Ceuta-e2de790bdd0f (35.89482, -5.31416)>|Port<Porto Acu-db9c1341eaaa (-21.83813, -40.99457)>|0|17012.83946569948 pr=1.00 C=628.6 mc=1113.6 mc/C=1.77 bid=1117.0 bid/C=1.78 margin=0.003 undercut=0
+[2026-01-09 12:14:30] [RECEIVE] t=0 contracts=4
+[2026-01-09 12:14:30] [WIN_DETAIL] trade=Port<Kawasaki-3c5642389c14 (35.49238, 139.7629)>|Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|96|24120.85986704411 pay=3970.7 pen=0.0 C=289.0 r=13.74 my_bid=289.9
+[2026-01-09 12:14:30] [WIN_DETAIL] trade=Port<Cape May-485c180b3d95 (38.94984, -74.89174)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|0|50373.04434787636 pay=13320.3 pen=0.0 C=502.5 r=26.51 my_bid=504.1
+[2026-01-09 12:14:30] [WIN_DETAIL] trade=Port<Port Said-73e707725c62 (31.25094, 32.30507)>|Port<Tanjung Pelepas-71ae886ba35d (1.34033, 103.54542)>|336|68561.73410929955 pay=37844.7 pen=0.0 C=1014.0 r=37.32 my_bid=1307.2
+[2026-01-09 12:14:30] [WIN_DETAIL] trade=Port<Ceuta-e2de790bdd0f (35.89482, -5.31416)>|Port<Porto Acu-db9c1341eaaa (-21.83813, -40.99457)>|0|17012.83946569948 pay=31395.2 pen=0.0 C=628.6 r=49.94 my_bid=1117.0
+[2026-01-09 12:14:30] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:30] [POST_V5] won=4 scheduled=4 score=86098.8
+[2026-01-09 12:14:30] [LEDGER] exact=4 left=0 samples=5 low20=13.74 med=37.32 mkt_ewma 2.00->5.53 low_ewma 1.25->1.25 F_q50=1.20
+[2026-01-09 12:14:30] ctrl win_rate=1.000 target=0.633 bid_scale=1.010 (hist_b=4, hist_w=4)
+[2026-01-09 12:14:30] receive wins=4 scheduled=4 mkt_ratio_ewma=5.532 low_ratio_ewma=1.250 ledger_samples=5
+[2026-01-09 12:14:30] [ROUND] t=1 r=2 trades=5 mkt_ewma=5.532 low_ewma=1.250 s=0.59
+[2026-01-09 12:14:30] [PARAM] s=0.59 p_sel=0.30 max_bids=32 markup=0.053 safety=0.081 undercut=0.000 min_profit=0.036 bid_scale=1.010 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.80 q50=1.20 q90=35.04
+[2026-01-09 12:14:31] [TOPK] got=8 best_sched=5 best_total_mc=1869.9 avg_sched=5.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:31] [MC_STATS] schedulable=5/5 mc/C min=1.00 med=1.00 p90=2.11 max=3.18 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:31] [FILTER_SUM] total=5 have_mc=5 pass_p=5 snipes=0 cand_pre_merge=5 final=5/32
+[2026-01-09 12:14:31] [FILTER_FAIL] reason=mc_over_c trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 pr=1.00 C=30.0 mc=95.5 mc/C=3.18
+[2026-01-09 12:14:31] [INS_SUM] ins_fail=316 ins_warn=200 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:31] [INS_FAIL] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:31] [INS_FAIL] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:31] [INS_FAIL] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:31] [INS_FAIL] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:31] [INS_FAIL] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-V-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:31] [INS_FAIL] trade=Port<Port Aransas-29a8105fada5 (27.83948, -97.07786)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|648|78410.0785017346 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:31] [INS_FAIL] trade=Port<Port Aransas-29a8105fada5 (27.83948, -97.07786)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|648|78410.0785017346 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:31] [INS_FAIL] trade=Port<Port Aransas-29a8105fada5 (27.83948, -97.07786)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|648|78410.0785017346 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:31] [INS_WARN] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-A-0 ips=1 mc/C=10.80 mc=324.3 C=30.0 tail=False
+[2026-01-09 12:14:31] [INS_WARN] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-A-1 ips=1 mc/C=11.75 mc=352.8 C=30.0 tail=False
+[2026-01-09 12:14:31] [INS_WARN] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-V-1 ips=2 mc/C=3.18 mc=95.5 C=30.0 tail=False
+[2026-01-09 12:14:31] [INS_WARN] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 vessel=HMS-V-2 ips=1 mc/C=40.78 mc=1224.8 C=30.0 tail=False
+[2026-01-09 12:14:31] [INS_WARN] trade=Port<Port Aransas-29a8105fada5 (27.83948, -97.07786)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|648|78410.0785017346 vessel=HMS-S-0 ips=1 mc/C=7.73 mc=244.3 C=31.6 tail=False
+[2026-01-09 12:14:31] [INS_WARN] trade=Port<Port Aransas-29a8105fada5 (27.83948, -97.07786)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|648|78410.0785017346 vessel=HMS-S-2 ips=1 mc/C=7.80 mc=246.5 C=31.6 tail=False
+[2026-01-09 12:14:31] [BIDS] n=5 min=67.65 med=355.19 max=885.36 s=0.59 p_sel=0.30 markup=0.053 safety=0.081 undercut=0.000
+[2026-01-09 12:14:31] [BID_SAMPLE] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Escombreras-8ff2f5149d51 (37.56818, -0.96804)>|840|92399.41398086428 pr=1.00 C=874.0 mc=874.0 mc/C=1.00 bid=885.4 bid/C=1.01 margin=0.013 undercut=0
+[2026-01-09 12:14:31] [BID_SAMPLE] trade=Port<Bouri-58e9b14b246d (33.9105, 12.65354)>|Port<Fos-a89094aa52c0 (43.42004, 4.86717)>|600|74608.71565181503 pr=1.00 C=505.9 mc=505.9 mc/C=1.00 bid=512.4 bid/C=1.01 margin=0.013 undercut=0
+[2026-01-09 12:14:31] [BID_SAMPLE] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Punta Cardon-a3b8a4418174 (11.62037, -70.23613)>|1032|37932.46665159231 pr=1.00 C=350.6 mc=350.6 mc/C=1.00 bid=355.2 bid/C=1.01 margin=0.013 undercut=0
+[2026-01-09 12:14:31] [BID_SAMPLE] trade=Port<Port Aransas-29a8105fada5 (27.83948, -97.07786)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|648|78410.0785017346 pr=1.00 C=31.6 mc=66.8 mc/C=2.11 bid=67.7 bid/C=2.14 margin=0.013 undercut=0
+[2026-01-09 12:14:31] [BID_SAMPLE] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 pr=1.00 C=30.0 mc=95.5 mc/C=3.18 bid=96.7 bid/C=3.22 margin=0.013 undercut=0
+[2026-01-09 12:14:31] [RECEIVE] t=1 contracts=5
+[2026-01-09 12:14:31] [WIN_DETAIL] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Punta Cardon-a3b8a4418174 (11.62037, -70.23613)>|1032|37932.46665159231 pay=3530.6 pen=0.0 C=350.6 r=10.07 my_bid=355.2
+[2026-01-09 12:14:31] [WIN_DETAIL] trade=Port<Bouri-58e9b14b246d (33.9105, 12.65354)>|Port<Fos-a89094aa52c0 (43.42004, 4.86717)>|600|74608.71565181503 pay=5342.0 pen=0.0 C=505.9 r=10.56 my_bid=512.4
+[2026-01-09 12:14:31] [WIN_DETAIL] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Escombreras-8ff2f5149d51 (37.56818, -0.96804)>|840|92399.41398086428 pay=29698.2 pen=0.0 C=874.0 r=33.98 my_bid=885.4
+[2026-01-09 12:14:31] [WIN_DETAIL] trade=Port<Kuala Linggi Intl Port-6425839cf0d6 (2.30113, 101.98038)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|960|77082.24537082159 pay=1281.8 pen=0.0 C=30.0 r=42.67 my_bid=96.7
+[2026-01-09 12:14:31] [WIN_DETAIL] trade=Port<Port Aransas-29a8105fada5 (27.83948, -97.07786)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|648|78410.0785017346 pay=1466.3 pen=0.0 C=31.6 r=46.42 my_bid=67.7
+[2026-01-09 12:14:31] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:31] [POST_V5] won=5 scheduled=5 score=40677.4
+[2026-01-09 12:14:31] [LEDGER] exact=5 left=0 samples=5 low20=10.07 med=33.98 mkt_ewma 5.53->8.38 low_ewma 1.25->1.25 F_q50=1.50
+[2026-01-09 12:14:31] ctrl win_rate=1.000 target=0.900 bid_scale=1.020 (hist_b=9, hist_w=9)
+[2026-01-09 12:14:31] receive wins=5 scheduled=5 mkt_ratio_ewma=8.377 low_ratio_ewma=1.250 ledger_samples=5
+[2026-01-09 12:14:32] [ROUND] t=2 r=3 trades=5 mkt_ewma=8.377 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:32] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.020 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.83 q50=1.50 q90=42.55
+[2026-01-09 12:14:32] [TOPK] got=8 best_sched=2 best_total_mc=799.2 avg_sched=2.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:32] [MC_STATS] schedulable=2/5 mc/C min=1.00 med=7.75 p90=1.00 max=7.75 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:32] [FILTER_SUM] total=5 have_mc=2 pass_p=2 snipes=0 cand_pre_merge=2 final=2/40
+[2026-01-09 12:14:32] [FILTER_FAIL] reason=no_mc trade=Port<Mina Al Ahmadi-2d893ce729f6 (29.0931, 48.1562)>|Port<Karachi-d8f24cbce54f (24.81243, 66.9803)>|1320|53242.80950763551
+[2026-01-09 12:14:32] [FILTER_FAIL] reason=mc_over_c trade=Port<Freeport-3415bc29dc8c (28.94049, -95.32098)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|1368|42166.62414766893 pr=1.00 C=25.8 mc=199.6 mc/C=7.75
+[2026-01-09 12:14:32] [FILTER_FAIL] reason=no_mc trade=Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|1416|20837.569338268124
+[2026-01-09 12:14:32] [FILTER_FAIL] reason=no_mc trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533
+[2026-01-09 12:14:32] [INS_SUM] ins_fail=456 ins_warn=72 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:32] [INS_FAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:32] [INS_FAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:32] [INS_FAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:32] [INS_FAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:32] [INS_FAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:32] [INS_FAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:32] [INS_FAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533 vessel=HMS-V-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:32] [INS_FAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|1464|157251.0866006533 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:32] [INS_WARN] trade=Port<Freeport-3415bc29dc8c (28.94049, -95.32098)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|1368|42166.62414766893 vessel=HMS-S-0 ips=1 mc/C=18.33 mc=472.3 C=25.8 tail=False
+[2026-01-09 12:14:32] [INS_WARN] trade=Port<Freeport-3415bc29dc8c (28.94049, -95.32098)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|1368|42166.62414766893 vessel=HMS-S-2 ips=1 mc/C=18.40 mc=474.2 C=25.8 tail=False
+[2026-01-09 12:14:32] [INS_WARN] trade=Port<Whiffen Head-9d95e17d2034 (47.77188, -54.01636)>|Port<Port Arthur-26aba1bc33e8 (29.89246, -93.90882)>|1824|108604.45176187831 vessel=HMS-S-1 ips=1 mc/C=1.37 mc=1046.9 C=763.2 tail=False
+[2026-01-09 12:14:32] [INS_WARN] trade=Port<Whiffen Head-9d95e17d2034 (47.77188, -54.01636)>|Port<Port Arthur-26aba1bc33e8 (29.89246, -93.90882)>|1824|108604.45176187831 vessel=HMS-S-2 ips=1 mc/C=1.00 mc=763.2 C=763.2 tail=False
+[2026-01-09 12:14:32] [INS_WARN] trade=Port<Whiffen Head-9d95e17d2034 (47.77188, -54.01636)>|Port<Port Arthur-26aba1bc33e8 (29.89246, -93.90882)>|1824|108604.45176187831 vessel=HMS-V-0 ips=1 mc/C=2.60 mc=1982.2 C=763.2 tail=False
+[2026-01-09 12:14:32] [INS_WARN] trade=Port<Whiffen Head-9d95e17d2034 (47.77188, -54.01636)>|Port<Port Arthur-26aba1bc33e8 (29.89246, -93.90882)>|1824|108604.45176187831 vessel=HMS-V-2 ips=1 mc/C=2.72 mc=2073.5 C=763.2 tail=False
+[2026-01-09 12:14:32] [BIDS] n=2 min=203.64 med=794.12 max=794.12 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:32] [BID_SAMPLE] trade=Port<Whiffen Head-9d95e17d2034 (47.77188, -54.01636)>|Port<Port Arthur-26aba1bc33e8 (29.89246, -93.90882)>|1824|108604.45176187831 pr=1.00 C=763.2 mc=763.2 mc/C=1.00 bid=794.1 bid/C=1.04 margin=0.041 undercut=0
+[2026-01-09 12:14:32] [BID_SAMPLE] trade=Port<Freeport-3415bc29dc8c (28.94049, -95.32098)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|1368|42166.62414766893 pr=1.00 C=25.8 mc=199.6 mc/C=7.75 bid=203.6 bid/C=7.90 margin=0.020 undercut=1
+[2026-01-09 12:14:32] [RECEIVE] t=2 contracts=2
+[2026-01-09 12:14:32] [WIN_DETAIL] trade=Port<Freeport-3415bc29dc8c (28.94049, -95.32098)>|Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|1368|42166.62414766893 pay=458.5 pen=0.0 C=25.8 r=17.79 my_bid=203.6
+[2026-01-09 12:14:32] [WIN_DETAIL] trade=Port<Whiffen Head-9d95e17d2034 (47.77188, -54.01636)>|Port<Port Arthur-26aba1bc33e8 (29.89246, -93.90882)>|1824|108604.45176187831 pay=20264.2 pen=0.0 C=763.2 r=26.55 my_bid=794.1
+[2026-01-09 12:14:32] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:32] [POST_V5] won=2 scheduled=2 score=18005.7
+[2026-01-09 12:14:32] [LEDGER] exact=2 left=0 samples=5 low20=12.65 med=26.55 mkt_ewma 8.38->10.19 low_ewma 1.25->1.25 F_q50=1.81
+[2026-01-09 12:14:32] ctrl win_rate=1.000 target=0.900 bid_scale=1.030 (hist_b=11, hist_w=11)
+[2026-01-09 12:14:32] receive wins=2 scheduled=2 mkt_ratio_ewma=10.195 low_ratio_ewma=1.250 ledger_samples=5
+[2026-01-09 12:14:32] [ROUND] t=3 r=4 trades=5 mkt_ewma=10.195 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:32] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.030 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.84 q50=1.81 q90=41.54
+[2026-01-09 12:14:33] [TOPK] got=8 best_sched=4 best_total_mc=2330.7 avg_sched=4.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:33] [MC_STATS] schedulable=4/5 mc/C min=2.29 med=3.62 p90=3.62 max=34.66 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:33] [FILTER_SUM] total=5 have_mc=4 pass_p=4 snipes=0 cand_pre_merge=4 final=4/40
+[2026-01-09 12:14:33] [FILTER_FAIL] reason=mc_over_c trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 pr=1.00 C=7.6 mc=262.9 mc/C=34.66
+[2026-01-09 12:14:33] [FILTER_FAIL] reason=mc_over_c trade=Port<Tanjung Pelepas-71ae886ba35d (1.34033, 103.54542)>|Port<Yangpu-da9d66d9e3a9 (19.79925, 109.17207)>|2496|157177.92017999679 pr=1.00 C=215.6 mc=780.8 mc/C=3.62
+[2026-01-09 12:14:33] [FILTER_FAIL] reason=no_mc trade=Port<Whiffen Head-9d95e17d2034 (47.77188, -54.01636)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|2088|85464.35902204762
+[2026-01-09 12:14:33] [INS_SUM] ins_fail=384 ins_warn=151 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-V-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Philadelphia-51672418fa6a (39.87496, -75.20842)>|2304|63961.41368341092 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Philadelphia-51672418fa6a (39.87496, -75.20842)>|2304|63961.41368341092 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Philadelphia-51672418fa6a (39.87496, -75.20842)>|2304|63961.41368341092 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-S-0 ips=1 mc/C=98.53 mc=747.4 C=7.6 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-S-2 ips=1 mc/C=98.53 mc=747.4 C=7.6 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-A-2 ips=1 mc/C=108.90 mc=826.1 C=7.6 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 vessel=HMS-V-0 ips=1 mc/C=90.76 mc=688.5 C=7.6 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Philadelphia-51672418fa6a (39.87496, -75.20842)>|2304|63961.41368341092 vessel=HMS-S-0 ips=1 mc/C=2.82 mc=791.6 C=280.6 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Philadelphia-51672418fa6a (39.87496, -75.20842)>|2304|63961.41368341092 vessel=HMS-S-2 ips=1 mc/C=2.82 mc=791.6 C=280.6 tail=False
+[2026-01-09 12:14:33] [BIDS] n=4 min=268.19 med=796.44 max=807.40 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:33] [BID_SAMPLE] trade=Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|Port<Zhoushan-611472facb34 (30.03737, 122.14654)>|2112|24442.07850997616 pr=1.00 C=327.7 mc=750.7 mc/C=2.29 bid=765.7 bid/C=2.34 margin=0.020 undercut=1
+[2026-01-09 12:14:33] [BID_SAMPLE] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Philadelphia-51672418fa6a (39.87496, -75.20842)>|2304|63961.41368341092 pr=1.00 C=280.6 mc=791.6 mc/C=2.82 bid=807.4 bid/C=2.88 margin=0.020 undercut=1
+[2026-01-09 12:14:33] [BID_SAMPLE] trade=Port<Tanjung Pelepas-71ae886ba35d (1.34033, 103.54542)>|Port<Yangpu-da9d66d9e3a9 (19.79925, 109.17207)>|2496|157177.92017999679 pr=1.00 C=215.6 mc=780.8 mc/C=3.62 bid=796.4 bid/C=3.69 margin=0.020 undercut=1
+[2026-01-09 12:14:33] [BID_SAMPLE] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 pr=1.00 C=7.6 mc=262.9 mc/C=34.66 bid=268.2 bid/C=35.35 margin=0.020 undercut=1
+[2026-01-09 12:14:33] [RECEIVE] t=3 contracts=4
+[2026-01-09 12:14:33] [WIN_DETAIL] trade=Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|Port<Zhoushan-611472facb34 (30.03737, 122.14654)>|2112|24442.07850997616 pay=15588.3 pen=0.0 C=327.7 r=47.57 my_bid=765.7
+[2026-01-09 12:14:33] [WIN_DETAIL] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Philadelphia-51672418fa6a (39.87496, -75.20842)>|2304|63961.41368341092 pay=13866.2 pen=0.0 C=280.6 r=49.42 my_bid=807.4
+[2026-01-09 12:14:33] [WIN_DETAIL] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2304|41652.98933565802 pay=379.3 pen=0.0 C=7.6 r=50.00 my_bid=268.2
+[2026-01-09 12:14:33] [WIN_DETAIL] trade=Port<Tanjung Pelepas-71ae886ba35d (1.34033, 103.54542)>|Port<Yangpu-da9d66d9e3a9 (19.79925, 109.17207)>|2496|157177.92017999679 pay=33375.8 pen=0.0 C=215.6 r=154.78 my_bid=796.4
+[2026-01-09 12:14:33] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:33] [POST_V5] won=4 scheduled=4 score=61051.7
+[2026-01-09 12:14:33] [LEDGER] exact=4 left=0 samples=5 low20=29.95 med=49.42 mkt_ewma 10.19->14.12 low_ewma 1.25->1.25 F_q50=4.12
+[2026-01-09 12:14:33] ctrl win_rate=1.000 target=0.900 bid_scale=1.041 (hist_b=15, hist_w=15)
+[2026-01-09 12:14:33] receive wins=4 scheduled=4 mkt_ratio_ewma=14.117 low_ratio_ewma=1.250 ledger_samples=5
+[2026-01-09 12:14:33] [ROUND] t=4 r=5 trades=5 mkt_ewma=14.117 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:33] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.86 q50=4.12 q90=48.67
+[2026-01-09 12:14:33] [TOPK] got=8 best_sched=4 best_total_mc=3957.5 avg_sched=4.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:33] [MC_STATS] schedulable=4/5 mc/C min=1.35 med=2.22 p90=2.22 max=2.28 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:33] [FILTER_SUM] total=5 have_mc=4 pass_p=4 snipes=0 cand_pre_merge=4 final=4/40
+[2026-01-09 12:14:33] [FILTER_FAIL] reason=no_mc trade=Port<Amuay Bay-5e4554330016 (11.74766, -70.21745)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|3096|40406.01868817009
+[2026-01-09 12:14:33] [INS_SUM] ins_fail=322 ins_warn=213 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-V-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|3168|150892.16013761977 vessel=HMS-S-0 base_ct=3475.0 ips=5/12 tried=16 verify_false=16 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_FAIL] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|3168|150892.16013761977 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-S-0 ips=1 mc/C=2.28 mc=1005.0 C=440.9 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-S-2 ips=1 mc/C=2.28 mc=1006.2 C=440.9 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 vessel=HMS-V-0 ips=1 mc/C=2.78 mc=1226.7 C=440.9 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Antwerp-03800591867c (51.28352, 4.3053)>|Port<Rotterdam-92c070ce8e92 (51.92699, 4.18716)>|3240|48331.464567995965 vessel=HMS-S-1 ips=1 mc/C=2.38 mc=1064.3 C=446.3 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Antwerp-03800591867c (51.28352, 4.3053)>|Port<Rotterdam-92c070ce8e92 (51.92699, 4.18716)>|3240|48331.464567995965 vessel=HMS-S-2 ips=1 mc/C=2.36 mc=1051.9 C=446.3 tail=False
+[2026-01-09 12:14:33] [INS_WARN] trade=Port<Antwerp-03800591867c (51.28352, 4.3053)>|Port<Rotterdam-92c070ce8e92 (51.92699, 4.18716)>|3240|48331.464567995965 vessel=HMS-A-0 ips=1 mc/C=2.53 mc=1127.3 C=446.3 tail=False
+[2026-01-09 12:14:33] [BIDS] n=4 min=790.35 med=1130.71 max=1208.36 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:33] [BID_SAMPLE] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|3264|62563.02153518131 pr=1.00 C=821.9 mc=1108.5 mc/C=1.35 bid=1130.7 bid/C=1.38 margin=0.020 undercut=1
+[2026-01-09 12:14:33] [BID_SAMPLE] trade=Port<Antwerp-03800591867c (51.28352, 4.3053)>|Port<Rotterdam-92c070ce8e92 (51.92699, 4.18716)>|3240|48331.464567995965 pr=1.00 C=446.3 mc=774.9 mc/C=1.74 bid=790.3 bid/C=1.77 margin=0.020 undercut=1
+[2026-01-09 12:14:33] [BID_SAMPLE] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|3168|150892.16013761977 pr=1.00 C=534.8 mc=1184.7 mc/C=2.22 bid=1208.4 bid/C=2.26 margin=0.020 undercut=1
+[2026-01-09 12:14:33] [BID_SAMPLE] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 pr=1.00 C=440.9 mc=1005.0 mc/C=2.28 bid=1025.1 bid/C=2.33 margin=0.020 undercut=1
+[2026-01-09 12:14:33] [RECEIVE] t=4 contracts=3
+[2026-01-09 12:14:33] [WIN_DETAIL] trade=Port<Valdez-2044032df24e (61.10212, -146.33336)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|3264|62563.02153518131 pay=15389.3 pen=0.0 C=821.9 r=18.72 my_bid=1130.7
+[2026-01-09 12:14:33] [WIN_DETAIL] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|3168|150892.16013761977 pay=10970.1 pen=0.0 C=534.8 r=20.51 my_bid=1208.4
+[2026-01-09 12:14:33] [WIN_DETAIL] trade=Port<Mamonal-3f9fa4be84a1 (10.33893, -75.51068)>|Port<Houston-453dd058edad (29.69145, -95.01914)>|2784|38920.61064828508 pay=11954.5 pen=0.0 C=440.9 r=27.12 my_bid=1025.1
+[2026-01-09 12:14:34] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:34] [POST_V5] won=3 scheduled=3 score=34971.8
+[2026-01-09 12:14:34] [LEDGER] exact=3 left=1 samples=4 low20=1.14 med=20.51 mkt_ewma 14.12->14.67 low_ewma 1.25->1.25 F_q50=6.73
+[2026-01-09 12:14:34] ctrl win_rate=0.947 target=0.900 bid_scale=1.041 (hist_b=19, hist_w=18)
+[2026-01-09 12:14:34] receive wins=3 scheduled=3 mkt_ratio_ewma=14.667 low_ratio_ewma=1.250 ledger_samples=4
+[2026-01-09 12:14:34] [ROUND] t=5 r=6 trades=5 mkt_ewma=14.667 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:34] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.86 q50=6.73 q90=47.55
+[2026-01-09 12:14:34] [TOPK] got=8 best_sched=4 best_total_mc=5611.3 avg_sched=4.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:34] [MC_STATS] schedulable=4/5 mc/C min=1.33 med=3.06 p90=3.06 max=73.70 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:34] [FILTER_SUM] total=5 have_mc=4 pass_p=4 snipes=0 cand_pre_merge=4 final=4/40
+[2026-01-09 12:14:34] [FILTER_FAIL] reason=mc_over_c trade=Port<Smiths Bluff-8218c47cd56c (30.01217, -93.96885)>|Port<Port Arthur-26aba1bc33e8 (29.89246, -93.90882)>|3888|74882.1838901017 pr=1.00 C=15.8 mc=1161.5 mc/C=73.70
+[2026-01-09 12:14:34] [FILTER_FAIL] reason=no_mc trade=Port<Ust-Luga-e9ea2bf59471 (59.73981, 28.3299)>|Port<Rotterdam-92c070ce8e92 (51.92699, 4.18716)>|3744|81652.78480840838
+[2026-01-09 12:14:34] [FILTER_FAIL] reason=mc_over_c trade=Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|Port<Longkou-83dd447f48b9 (37.65819, 120.2801)>|3696|40409.755691108214 pr=1.00 C=410.5 mc=1258.0 mc/C=3.06
+[2026-01-09 12:14:34] [INS_SUM] ins_fail=346 ins_warn=194 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:34] [INS_FAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:34] [INS_FAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:34] [INS_FAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:34] [INS_FAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:34] [INS_FAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:34] [INS_FAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:34] [INS_FAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-V-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:34] [INS_FAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:34] [INS_WARN] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 vessel=HMS-V-2 ips=1 mc/C=1.94 mc=1850.0 C=951.6 tail=False
+[2026-01-09 12:14:34] [INS_WARN] trade=Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|Port<Longkou-83dd447f48b9 (37.65819, 120.2801)>|3696|40409.755691108214 vessel=HMS-A-0 ips=1 mc/C=3.06 mc=1258.0 C=410.5 tail=False
+[2026-01-09 12:14:34] [INS_WARN] trade=Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|Port<Longkou-83dd447f48b9 (37.65819, 120.2801)>|3696|40409.755691108214 vessel=HMS-A-1 ips=1 mc/C=3.12 mc=1282.0 C=410.5 tail=False
+[2026-01-09 12:14:34] [INS_WARN] trade=Port<Primorsk-1745900bf09d (60.33146, 28.69689)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|3960|72811.08647643603 vessel=HMS-S-0 ips=1 mc/C=1.33 mc=1341.7 C=1006.4 tail=False
+[2026-01-09 12:14:34] [INS_WARN] trade=Port<Primorsk-1745900bf09d (60.33146, 28.69689)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|3960|72811.08647643603 vessel=HMS-S-1 ips=1 mc/C=1.35 mc=1362.9 C=1006.4 tail=False
+[2026-01-09 12:14:34] [INS_WARN] trade=Port<Primorsk-1745900bf09d (60.33146, 28.69689)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|3960|72811.08647643603 vessel=HMS-S-2 ips=1 mc/C=1.33 mc=1343.2 C=1006.4 tail=False
+[2026-01-09 12:14:34] [BIDS] n=4 min=1184.75 med=1368.56 max=1887.03 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:34] [BID_SAMPLE] trade=Port<Primorsk-1745900bf09d (60.33146, 28.69689)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|3960|72811.08647643603 pr=1.00 C=1006.4 mc=1341.7 mc/C=1.33 bid=1368.6 bid/C=1.36 margin=0.020 undercut=1
+[2026-01-09 12:14:34] [BID_SAMPLE] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 pr=1.00 C=951.6 mc=1850.0 mc/C=1.94 bid=1887.0 bid/C=1.98 margin=0.020 undercut=1
+[2026-01-09 12:14:34] [BID_SAMPLE] trade=Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|Port<Longkou-83dd447f48b9 (37.65819, 120.2801)>|3696|40409.755691108214 pr=1.00 C=410.5 mc=1258.0 mc/C=3.06 bid=1283.2 bid/C=3.13 margin=0.020 undercut=1
+[2026-01-09 12:14:34] [BID_SAMPLE] trade=Port<Smiths Bluff-8218c47cd56c (30.01217, -93.96885)>|Port<Port Arthur-26aba1bc33e8 (29.89246, -93.90882)>|3888|74882.1838901017 pr=1.00 C=15.8 mc=1161.5 mc/C=73.70 bid=1184.7 bid/C=75.18 margin=0.020 undercut=1
+[2026-01-09 12:14:34] [RECEIVE] t=5 contracts=3
+[2026-01-09 12:14:34] [WIN_DETAIL] trade=Port<Primorsk-1745900bf09d (60.33146, 28.69689)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|3960|72811.08647643603 pay=11512.9 pen=0.0 C=1006.4 r=11.44 my_bid=1368.6
+[2026-01-09 12:14:34] [WIN_DETAIL] trade=Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|Port<Longkou-83dd447f48b9 (37.65819, 120.2801)>|3696|40409.755691108214 pay=19695.3 pen=0.0 C=410.5 r=47.98 my_bid=1283.2
+[2026-01-09 12:14:34] [WIN_DETAIL] trade=Port<Das Island-6bbe24b74298 (25.13382, 52.91452)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|3792|102679.37060089258 pay=90113.5 pen=0.0 C=951.6 r=94.70 my_bid=1887.0
+[2026-01-09 12:14:34] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:34] [POST_V5] won=3 scheduled=3 score=116980.2
+[2026-01-09 12:14:34] [LEDGER] exact=3 left=1 samples=5 low20=10.21 med=25.59 mkt_ewma 14.67->15.76 low_ewma 1.25->1.25 F_q50=8.83
+[2026-01-09 12:14:34] ctrl win_rate=0.913 target=0.900 bid_scale=1.041 (hist_b=23, hist_w=21)
+[2026-01-09 12:14:34] receive wins=3 scheduled=3 mkt_ratio_ewma=15.760 low_ratio_ewma=1.250 ledger_samples=5
+[2026-01-09 12:14:34] [ROUND] t=6 r=7 trades=5 mkt_ewma=15.760 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:34] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.87 q50=8.83 q90=48.92
+[2026-01-09 12:14:35] [TOPK] got=8 best_sched=3 best_total_mc=4246.3 avg_sched=3.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:35] [MC_STATS] schedulable=3/5 mc/C min=1.43 med=25.62 p90=25.62 max=25.95 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:35] [FILTER_SUM] total=5 have_mc=3 pass_p=3 snipes=0 cand_pre_merge=3 final=3/40
+[2026-01-09 12:14:35] [FILTER_FAIL] reason=no_mc trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|4296|108669.1890515039
+[2026-01-09 12:14:35] [FILTER_FAIL] reason=mc_over_c trade=Port<Rio De Janeiro-ef2da6007e09 (-22.81508, -43.18133)>|Port<Sao Sebastiao-0bca302110e4 (-23.80617, -45.3935)>|4224|127776.92385191935 pr=1.00 C=54.5 mc=1413.1 mc/C=25.95
+[2026-01-09 12:14:35] [FILTER_FAIL] reason=mc_over_c trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Sakai-Semboku-c9b22e968c26 (34.5599, 135.40714)>|4560|70141.57908624671 pr=1.00 C=55.1 mc=1412.5 mc/C=25.62
+[2026-01-09 12:14:35] [FILTER_FAIL] reason=no_mc trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4272|112073.86353655194
+[2026-01-09 12:14:35] [INS_SUM] ins_fail=468 ins_warn=72 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4272|112073.86353655194 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-V-0 ips=1 mc/C=1.99 mc=1977.0 C=995.9 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 vessel=HMS-V-2 ips=1 mc/C=1.43 mc=1420.7 C=995.9 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Rio De Janeiro-ef2da6007e09 (-22.81508, -43.18133)>|Port<Sao Sebastiao-0bca302110e4 (-23.80617, -45.3935)>|4224|127776.92385191935 vessel=HMS-S-1 ips=1 mc/C=25.95 mc=1413.1 C=54.5 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Sakai-Semboku-c9b22e968c26 (34.5599, 135.40714)>|4560|70141.57908624671 vessel=HMS-A-0 ips=1 mc/C=26.98 mc=1487.4 C=55.1 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Sakai-Semboku-c9b22e968c26 (34.5599, 135.40714)>|4560|70141.57908624671 vessel=HMS-A-1 ips=1 mc/C=26.98 mc=1487.4 C=55.1 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Sakai-Semboku-c9b22e968c26 (34.5599, 135.40714)>|4560|70141.57908624671 vessel=HMS-V-1 ips=1 mc/C=25.62 mc=1412.5 C=55.1 tail=False
+[2026-01-09 12:14:35] [BIDS] n=3 min=1440.80 med=1441.40 max=1449.07 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:35] [BID_SAMPLE] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 pr=1.00 C=995.9 mc=1420.7 mc/C=1.43 bid=1449.1 bid/C=1.45 margin=0.020 undercut=1
+[2026-01-09 12:14:35] [BID_SAMPLE] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Sakai-Semboku-c9b22e968c26 (34.5599, 135.40714)>|4560|70141.57908624671 pr=1.00 C=55.1 mc=1412.5 mc/C=25.62 bid=1440.8 bid/C=26.13 margin=0.020 undercut=1
+[2026-01-09 12:14:35] [BID_SAMPLE] trade=Port<Rio De Janeiro-ef2da6007e09 (-22.81508, -43.18133)>|Port<Sao Sebastiao-0bca302110e4 (-23.80617, -45.3935)>|4224|127776.92385191935 pr=1.00 C=54.5 mc=1413.1 mc/C=25.95 bid=1441.4 bid/C=26.47 margin=0.020 undercut=1
+[2026-01-09 12:14:35] [RECEIVE] t=6 contracts=3
+[2026-01-09 12:14:35] [WIN_DETAIL] trade=Port<Al Basrah-1fc976f51917 (29.67187, 48.83146)>|Port<Vadinar-95b0ec8946e3 (22.48839, 69.6867)>|4560|103464.0577272631 pay=9671.5 pen=0.0 C=995.9 r=9.71 my_bid=1449.1
+[2026-01-09 12:14:35] [WIN_DETAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Sakai-Semboku-c9b22e968c26 (34.5599, 135.40714)>|4560|70141.57908624671 pay=2610.9 pen=0.0 C=55.1 r=47.36 my_bid=1440.8
+[2026-01-09 12:14:35] [WIN_DETAIL] trade=Port<Rio De Janeiro-ef2da6007e09 (-22.81508, -43.18133)>|Port<Sao Sebastiao-0bca302110e4 (-23.80617, -45.3935)>|4224|127776.92385191935 pay=4105.8 pen=0.0 C=54.5 r=75.40 my_bid=1441.4
+[2026-01-09 12:14:35] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:35] [POST_V5] won=3 scheduled=3 score=-1952.7
+[2026-01-09 12:14:35] [LEDGER] exact=3 left=0 samples=3 low20=9.71 med=47.36 mkt_ewma 15.76->18.92 low_ewma 1.25->1.25 F_q50=9.85
+[2026-01-09 12:14:35] ctrl win_rate=0.923 target=0.900 bid_scale=1.041 (hist_b=26, hist_w=24)
+[2026-01-09 12:14:35] receive wins=3 scheduled=3 mkt_ratio_ewma=18.920 low_ratio_ewma=1.250 ledger_samples=3
+[2026-01-09 12:14:35] [ROUND] t=7 r=8 trades=5 mkt_ewma=18.920 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:35] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.89 q50=9.85 q90=50.06
+[2026-01-09 12:14:35] [TOPK] got=8 best_sched=3 best_total_mc=5355.6 avg_sched=3.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:35] [MC_STATS] schedulable=3/5 mc/C min=1.76 med=2.06 p90=2.06 max=141.70 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:35] [FILTER_SUM] total=5 have_mc=3 pass_p=3 snipes=0 cand_pre_merge=3 final=3/40
+[2026-01-09 12:14:35] [FILTER_FAIL] reason=no_mc trade=Port<Amuay Bay-5e4554330016 (11.74766, -70.21745)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|5112|115595.2713993737
+[2026-01-09 12:14:35] [FILTER_FAIL] reason=no_mc trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635
+[2026-01-09 12:14:35] [FILTER_FAIL] reason=mc_over_c trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Baytown-0bbc5d394cf2 (29.74065, -95.0124)>|5328|78445.42311667686 pr=1.00 C=11.3 mc=1608.3 mc/C=141.70
+[2026-01-09 12:14:35] [INS_SUM] ins_fail=456 ins_warn=77 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635 vessel=HMS-V-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|4920|110169.05353260635 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Mina Al Fahl-2478ba60dc4c (23.66492, 58.53492)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|4992|40433.18275025161 vessel=HMS-V-2 ips=1 mc/C=7.09 mc=1517.4 C=214.1 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Gwangyang-11ecb2ca4f7f (34.8831, 127.70313)>|5040|168768.2110422245 vessel=HMS-V-2 ips=3 mc/C=2.06 mc=3533.2 C=1715.4 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Baytown-0bbc5d394cf2 (29.74065, -95.0124)>|5328|78445.42311667686 vessel=HMS-S-0 ips=1 mc/C=152.06 mc=1725.8 C=11.3 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Baytown-0bbc5d394cf2 (29.74065, -95.0124)>|5328|78445.42311667686 vessel=HMS-S-1 ips=1 mc/C=155.37 mc=1763.4 C=11.3 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Baytown-0bbc5d394cf2 (29.74065, -95.0124)>|5328|78445.42311667686 vessel=HMS-S-2 ips=1 mc/C=152.06 mc=1725.8 C=11.3 tail=False
+[2026-01-09 12:14:35] [INS_WARN] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Baytown-0bbc5d394cf2 (29.74065, -95.0124)>|5328|78445.42311667686 vessel=HMS-A-2 ips=1 mc/C=155.06 mc=1759.9 C=11.3 tail=False
+[2026-01-09 12:14:35] [BIDS] n=3 min=384.56 med=1640.44 max=3603.90 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:35] [BID_SAMPLE] trade=Port<Mina Al Fahl-2478ba60dc4c (23.66492, 58.53492)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|4992|40433.18275025161 pr=1.00 C=214.1 mc=377.0 mc/C=1.76 bid=384.6 bid/C=1.80 margin=0.020 undercut=1
+[2026-01-09 12:14:35] [BID_SAMPLE] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Gwangyang-11ecb2ca4f7f (34.8831, 127.70313)>|5040|168768.2110422245 pr=1.00 C=1715.4 mc=3533.2 mc/C=2.06 bid=3603.9 bid/C=2.10 margin=0.020 undercut=1
+[2026-01-09 12:14:35] [BID_SAMPLE] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<Baytown-0bbc5d394cf2 (29.74065, -95.0124)>|5328|78445.42311667686 pr=1.00 C=11.3 mc=1608.3 mc/C=141.70 bid=1640.4 bid/C=144.54 margin=0.020 undercut=1
+[2026-01-09 12:14:35] [RECEIVE] t=7 contracts=2
+[2026-01-09 12:14:35] [WIN_DETAIL] trade=Port<Mina Al Fahl-2478ba60dc4c (23.66492, 58.53492)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|4992|40433.18275025161 pay=1366.4 pen=0.0 C=214.1 r=6.38 my_bid=384.6
+[2026-01-09 12:14:35] [WIN_DETAIL] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Gwangyang-11ecb2ca4f7f (34.8831, 127.70313)>|5040|168768.2110422245 pay=165181.9 pen=0.0 C=1715.4 r=96.30 my_bid=3603.9
+[2026-01-09 12:14:35] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:35] [POST_V5] won=2 scheduled=2 score=164877.4
+[2026-01-09 12:14:35] [LEDGER] exact=2 left=1 samples=3 low20=6.38 med=50.00 mkt_ewma 18.92->22.03 low_ewma 1.25->1.25 F_q50=9.71
+[2026-01-09 12:14:35] ctrl win_rate=0.897 target=0.900 bid_scale=1.041 (hist_b=29, hist_w=26)
+[2026-01-09 12:14:35] receive wins=2 scheduled=2 mkt_ratio_ewma=22.028 low_ratio_ewma=1.250 ledger_samples=3
+[2026-01-09 12:14:35] [ROUND] t=8 r=9 trades=5 mkt_ewma=22.028 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:35] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.89 q50=9.71 q90=50.24
+[2026-01-09 12:14:36] [TOPK] got=8 best_sched=4 best_total_mc=6623.4 avg_sched=4.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:36] [MC_STATS] schedulable=4/5 mc/C min=1.74 med=3.15 p90=3.15 max=3.22 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:36] [FILTER_SUM] total=5 have_mc=4 pass_p=4 snipes=0 cand_pre_merge=4 final=4/40
+[2026-01-09 12:14:36] [FILTER_FAIL] reason=no_mc trade=Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|Port<Port Klang-083f09688b4c (2.89587, 101.31015)>|5688|199535.64349486408
+[2026-01-09 12:14:36] [FILTER_FAIL] reason=mc_over_c trade=Port<Avalon-9dcfdaa2a4cd (33.34462, -118.32038)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|6024|102951.1443631875 pr=1.00 C=581.5 mc=1833.3 mc/C=3.15
+[2026-01-09 12:14:36] [FILTER_FAIL] reason=mc_over_c trade=Port<Ust-Luga-e9ea2bf59471 (59.73981, 28.3299)>|Port<Gdansk-34ceedb9667f (54.39911, 18.715)>|6120|75682.35988337777 pr=1.00 C=584.4 mc=1883.4 mc/C=3.22
+[2026-01-09 12:14:36] [INS_SUM] ins_fail=334 ins_warn=194 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:36] [INS_FAIL] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:36] [INS_FAIL] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:36] [INS_FAIL] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:36] [INS_FAIL] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-V-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:36] [INS_FAIL] trade=Port<Ceyhan-3b530c868db0 (36.86564, 35.93382)>|Port<Tutunciftlik-193af158122c (40.74201, 29.76709)>|5784|73766.35030150335 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:36] [INS_FAIL] trade=Port<Ceyhan-3b530c868db0 (36.86564, 35.93382)>|Port<Tutunciftlik-193af158122c (40.74201, 29.76709)>|5784|73766.35030150335 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:36] [INS_FAIL] trade=Port<Ceyhan-3b530c868db0 (36.86564, 35.93382)>|Port<Tutunciftlik-193af158122c (40.74201, 29.76709)>|5784|73766.35030150335 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:36] [INS_FAIL] trade=Port<Ceyhan-3b530c868db0 (36.86564, 35.93382)>|Port<Tutunciftlik-193af158122c (40.74201, 29.76709)>|5784|73766.35030150335 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:36] [INS_WARN] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-S-0 ips=1 mc/C=2.85 mc=1997.9 C=701.0 tail=False
+[2026-01-09 12:14:36] [INS_WARN] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-S-1 ips=1 mc/C=2.84 mc=1987.7 C=701.0 tail=False
+[2026-01-09 12:14:36] [INS_WARN] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-S-2 ips=1 mc/C=2.85 mc=1999.4 C=701.0 tail=False
+[2026-01-09 12:14:36] [INS_WARN] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-A-2 ips=1 mc/C=2.83 mc=1982.8 C=701.0 tail=False
+[2026-01-09 12:14:36] [INS_WARN] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 vessel=HMS-V-0 ips=1 mc/C=2.60 mc=1820.5 C=701.0 tail=False
+[2026-01-09 12:14:36] [INS_WARN] trade=Port<Avalon-9dcfdaa2a4cd (33.34462, -118.32038)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|6024|102951.1443631875 vessel=HMS-S-0 ips=1 mc/C=3.39 mc=1969.4 C=581.5 tail=False
+[2026-01-09 12:14:36] [BIDS] n=4 min=1365.94 med=1869.93 max=1921.09 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:36] [BID_SAMPLE] trade=Port<Ceyhan-3b530c868db0 (36.86564, 35.93382)>|Port<Tutunciftlik-193af158122c (40.74201, 29.76709)>|5784|73766.35030150335 pr=1.00 C=933.0 mc=1622.7 mc/C=1.74 bid=1655.2 bid/C=1.77 margin=0.020 undercut=1
+[2026-01-09 12:14:36] [BID_SAMPLE] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 pr=1.00 C=701.0 mc=1339.2 mc/C=1.91 bid=1365.9 bid/C=1.95 margin=0.020 undercut=1
+[2026-01-09 12:14:36] [BID_SAMPLE] trade=Port<Avalon-9dcfdaa2a4cd (33.34462, -118.32038)>|Port<Long Beach-4c3082f54073 (33.75264, -118.21166)>|6024|102951.1443631875 pr=1.00 C=581.5 mc=1833.3 mc/C=3.15 bid=1869.9 bid/C=3.22 margin=0.020 undercut=1
+[2026-01-09 12:14:36] [BID_SAMPLE] trade=Port<Ust-Luga-e9ea2bf59471 (59.73981, 28.3299)>|Port<Gdansk-34ceedb9667f (54.39911, 18.715)>|6120|75682.35988337777 pr=1.00 C=584.4 mc=1883.4 mc/C=3.22 bid=1921.1 bid/C=3.29 margin=0.020 undercut=1
+[2026-01-09 12:14:36] [RECEIVE] t=8 contracts=3
+[2026-01-09 12:14:36] [WIN_DETAIL] trade=Port<Ceyhan-3b530c868db0 (36.86564, 35.93382)>|Port<Tutunciftlik-193af158122c (40.74201, 29.76709)>|5784|73766.35030150335 pay=6291.0 pen=0.0 C=933.0 r=6.74 my_bid=1655.2
+[2026-01-09 12:14:36] [WIN_DETAIL] trade=Port<Ust-Luga-e9ea2bf59471 (59.73981, 28.3299)>|Port<Gdansk-34ceedb9667f (54.39911, 18.715)>|6120|75682.35988337777 pay=4073.6 pen=0.0 C=584.4 r=6.97 my_bid=1921.1
+[2026-01-09 12:14:36] [WIN_DETAIL] trade=Port<Las Palmas-5d1a8657373a (28.13468, -15.40678)>|Port<Le Havre-4c8da7f30f05 (49.47022, 0.14649)>|6000|51088.5463256612 pay=11970.0 pen=0.0 C=701.0 r=17.08 my_bid=1365.9
+[2026-01-09 12:14:36] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:36] [POST_V5] won=3 scheduled=3 score=17143.5
+[2026-01-09 12:14:36] [LEDGER] exact=3 left=1 samples=4 low20=1.14 med=6.97 mkt_ewma 22.03->20.51 low_ewma 1.25->1.25 F_q50=8.94
+[2026-01-09 12:14:36] ctrl win_rate=0.879 target=0.900 bid_scale=1.041 (hist_b=33, hist_w=29)
+[2026-01-09 12:14:36] receive wins=3 scheduled=3 mkt_ratio_ewma=20.511 low_ratio_ewma=1.250 ledger_samples=4
+[2026-01-09 12:14:36] [ROUND] t=9 r=10 trades=5 mkt_ewma=20.511 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:36] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.89 q50=8.94 q90=49.51
+[2026-01-09 12:14:37] [TOPK] got=8 best_sched=5 best_total_mc=8622.7 avg_sched=5.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:37] [MC_STATS] schedulable=5/5 mc/C min=2.31 med=5.97 p90=6.58 max=46.61 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:37] [FILTER_SUM] total=5 have_mc=5 pass_p=5 snipes=0 cand_pre_merge=5 final=5/40
+[2026-01-09 12:14:37] [FILTER_FAIL] reason=mc_over_c trade=Port<Dos Bocas-51ae87032a0e (18.44281, -93.1975)>|Port<Corpus Christi-7a30d31f121f (27.81704, -97.40814)>|6696|48874.34979403635 pr=1.00 C=170.4 mc=1122.0 mc/C=6.58
+[2026-01-09 12:14:37] [FILTER_FAIL] reason=mc_over_c trade=Port<Rio De Janeiro-ef2da6007e09 (-22.81508, -43.18133)>|Port<Porto Acu-db9c1341eaaa (-21.83813, -40.99457)>|6552|89097.44768472826 pr=1.00 C=45.6 mc=2123.8 mc/C=46.61
+[2026-01-09 12:14:37] [FILTER_FAIL] reason=mc_over_c trade=Port<Karimun-129f2fb1bc00 (1.0796, 103.30696)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|6480|103298.20736403442 pr=1.00 C=333.1 mc=1988.5 mc/C=5.97
+[2026-01-09 12:14:37] [INS_SUM] ins_fail=372 ins_warn=158 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-V-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Dos Bocas-51ae87032a0e (18.44281, -93.1975)>|Port<Corpus Christi-7a30d31f121f (27.81704, -97.40814)>|6696|48874.34979403635 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-V-0 ips=1 mc/C=2.30 mc=2005.6 C=871.5 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 vessel=HMS-V-1 ips=1 mc/C=2.33 mc=2027.8 C=871.5 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Dos Bocas-51ae87032a0e (18.44281, -93.1975)>|Port<Corpus Christi-7a30d31f121f (27.81704, -97.40814)>|6696|48874.34979403635 vessel=HMS-S-0 ips=1 mc/C=12.78 mc=2177.8 C=170.4 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Dos Bocas-51ae87032a0e (18.44281, -93.1975)>|Port<Corpus Christi-7a30d31f121f (27.81704, -97.40814)>|6696|48874.34979403635 vessel=HMS-S-1 ips=1 mc/C=13.12 mc=2235.6 C=170.4 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Dos Bocas-51ae87032a0e (18.44281, -93.1975)>|Port<Corpus Christi-7a30d31f121f (27.81704, -97.40814)>|6696|48874.34979403635 vessel=HMS-S-2 ips=1 mc/C=12.78 mc=2177.8 C=170.4 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Dos Bocas-51ae87032a0e (18.44281, -93.1975)>|Port<Corpus Christi-7a30d31f121f (27.81704, -97.40814)>|6696|48874.34979403635 vessel=HMS-A-2 ips=1 mc/C=13.09 mc=2230.7 C=170.4 tail=False
+[2026-01-09 12:14:37] [BIDS] n=5 min=1144.46 med=2028.23 max=2166.30 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:37] [BID_SAMPLE] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 pr=1.00 C=871.5 mc=2011.2 mc/C=2.31 bid=2051.4 bid/C=2.35 margin=0.020 undercut=1
+[2026-01-09 12:14:37] [BID_SAMPLE] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Rotterdam-92c070ce8e92 (51.92699, 4.18716)>|6792|100218.67838607568 pr=1.00 C=761.4 mc=1901.7 mc/C=2.50 bid=1939.7 bid/C=2.55 margin=0.020 undercut=1
+[2026-01-09 12:14:37] [BID_SAMPLE] trade=Port<Karimun-129f2fb1bc00 (1.0796, 103.30696)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|6480|103298.20736403442 pr=1.00 C=333.1 mc=1988.5 mc/C=5.97 bid=2028.2 bid/C=6.09 margin=0.020 undercut=1
+[2026-01-09 12:14:37] [BID_SAMPLE] trade=Port<Dos Bocas-51ae87032a0e (18.44281, -93.1975)>|Port<Corpus Christi-7a30d31f121f (27.81704, -97.40814)>|6696|48874.34979403635 pr=1.00 C=170.4 mc=1122.0 mc/C=6.58 bid=1144.5 bid/C=6.71 margin=0.020 undercut=1
+[2026-01-09 12:14:37] [BID_SAMPLE] trade=Port<Rio De Janeiro-ef2da6007e09 (-22.81508, -43.18133)>|Port<Porto Acu-db9c1341eaaa (-21.83813, -40.99457)>|6552|89097.44768472826 pr=1.00 C=45.6 mc=2123.8 mc/C=46.61 bid=2166.3 bid/C=47.54 margin=0.020 undercut=1
+[2026-01-09 12:14:37] [RECEIVE] t=9 contracts=3
+[2026-01-09 12:14:37] [WIN_DETAIL] trade=Port<Es Sider-7b388828f370 (30.63056, 18.37351)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|6576|79168.75356785687 pay=7379.0 pen=0.0 C=871.5 r=8.47 my_bid=2051.4
+[2026-01-09 12:14:37] [WIN_DETAIL] trade=Port<Dos Bocas-51ae87032a0e (18.44281, -93.1975)>|Port<Corpus Christi-7a30d31f121f (27.81704, -97.40814)>|6696|48874.34979403635 pay=5055.1 pen=0.0 C=170.4 r=29.66 my_bid=1144.5
+[2026-01-09 12:14:37] [WIN_DETAIL] trade=Port<Houston-453dd058edad (29.69145, -95.01914)>|Port<Rotterdam-92c070ce8e92 (51.92699, 4.18716)>|6792|100218.67838607568 pay=37909.3 pen=0.0 C=761.4 r=49.79 my_bid=1939.7
+[2026-01-09 12:14:37] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:37] [POST_V5] won=3 scheduled=3 score=44830.7
+[2026-01-09 12:14:37] [LEDGER] exact=3 left=2 samples=5 low20=6.09 med=29.66 mkt_ewma 20.51->21.43 low_ewma 1.25->1.25 F_q50=9.26
+[2026-01-09 12:14:37] ctrl win_rate=0.842 target=0.900 bid_scale=1.041 (hist_b=38, hist_w=32)
+[2026-01-09 12:14:37] receive wins=3 scheduled=3 mkt_ratio_ewma=21.425 low_ratio_ewma=1.250 ledger_samples=5
+[2026-01-09 12:14:37] [ROUND] t=10 r=11 trades=5 mkt_ewma=21.425 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:37] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.90 q50=9.26 q90=49.37
+[2026-01-09 12:14:37] [TOPK] got=8 best_sched=2 best_total_mc=2143.0 avg_sched=2.00 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:37] [MC_STATS] schedulable=2/5 mc/C min=2.45 med=3.58 p90=2.45 max=3.58 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:37] [FILTER_SUM] total=5 have_mc=2 pass_p=2 snipes=0 cand_pre_merge=2 final=2/40
+[2026-01-09 12:14:37] [FILTER_FAIL] reason=no_mc trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7152|147329.6433293652
+[2026-01-09 12:14:37] [FILTER_FAIL] reason=mc_over_c trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<San Nicolas-ff36bc1d90be (12.43039, -69.91776)>|7632|48763.533782828454 pr=1.00 C=268.7 mc=962.5 mc/C=3.58
+[2026-01-09 12:14:37] [FILTER_FAIL] reason=no_mc trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166
+[2026-01-09 12:14:37] [FILTER_FAIL] reason=no_mc trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7080|75317.45375870356
+[2026-01-09 12:14:37] [INS_SUM] ins_fail=384 ins_warn=156 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166 vessel=HMS-V-0 base_ct=6843.5 ips=2/12 tried=4 verify_false=4 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_FAIL] trade=Port<Canuku Terminal-f70399be83e6 (-7.09132, 12.46762)>|Port<Nemrut Bay-e89f801cf7ac (38.76748, 26.9189)>|7128|170864.4832704166 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Matanzas-0c7cf8ac0c2c (23.04986, -81.545)>|7416|50642.527948912786 vessel=HMS-S-0 ips=1 mc/C=5.04 mc=2426.7 C=481.3 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Matanzas-0c7cf8ac0c2c (23.04986, -81.545)>|7416|50642.527948912786 vessel=HMS-S-1 ips=1 mc/C=5.07 mc=2441.8 C=481.3 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Matanzas-0c7cf8ac0c2c (23.04986, -81.545)>|7416|50642.527948912786 vessel=HMS-S-2 ips=1 mc/C=5.04 mc=2426.7 C=481.3 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Matanzas-0c7cf8ac0c2c (23.04986, -81.545)>|7416|50642.527948912786 vessel=HMS-A-2 ips=1 mc/C=5.06 mc=2436.9 C=481.3 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Matanzas-0c7cf8ac0c2c (23.04986, -81.545)>|7416|50642.527948912786 vessel=HMS-V-0 ips=2 mc/C=2.45 mc=1180.5 C=481.3 tail=False
+[2026-01-09 12:14:37] [INS_WARN] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Matanzas-0c7cf8ac0c2c (23.04986, -81.545)>|7416|50642.527948912786 vessel=HMS-V-1 ips=1 mc/C=4.75 mc=2285.2 C=481.3 tail=False
+[2026-01-09 12:14:37] [BIDS] n=2 min=981.75 med=1204.15 max=1204.15 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:37] [BID_SAMPLE] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Matanzas-0c7cf8ac0c2c (23.04986, -81.545)>|7416|50642.527948912786 pr=1.00 C=481.3 mc=1180.5 mc/C=2.45 bid=1204.2 bid/C=2.50 margin=0.020 undercut=1
+[2026-01-09 12:14:37] [BID_SAMPLE] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<San Nicolas-ff36bc1d90be (12.43039, -69.91776)>|7632|48763.533782828454 pr=1.00 C=268.7 mc=962.5 mc/C=3.58 bid=981.8 bid/C=3.65 margin=0.020 undercut=1
+[2026-01-09 12:14:37] [RECEIVE] t=10 contracts=2
+[2026-01-09 12:14:37] [WIN_DETAIL] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Matanzas-0c7cf8ac0c2c (23.04986, -81.545)>|7416|50642.527948912786 pay=10425.8 pen=0.0 C=481.3 r=21.66 my_bid=1204.2
+[2026-01-09 12:14:37] [WIN_DETAIL] trade=Port<Galveston-80916f3912d8 (29.31778, -94.79335)>|Port<San Nicolas-ff36bc1d90be (12.43039, -69.91776)>|7632|48763.533782828454 pay=13437.2 pen=0.0 C=268.7 r=50.00 my_bid=981.8
+[2026-01-09 12:14:38] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:38] [POST_V5] won=2 scheduled=2 score=23679.0
+[2026-01-09 12:14:38] [LEDGER] exact=2 left=0 samples=2 low20=21.66 med=50.00 mkt_ewma 21.43->22.87 low_ewma 1.25->1.25 F_q50=9.90
+[2026-01-09 12:14:38] ctrl win_rate=0.850 target=0.900 bid_scale=1.041 (hist_b=40, hist_w=34)
+[2026-01-09 12:14:38] receive wins=2 scheduled=2 mkt_ratio_ewma=22.866 low_ratio_ewma=1.250 ledger_samples=2
+[2026-01-09 12:14:38] [ROUND] t=11 r=12 trades=5 mkt_ewma=22.866 low_ewma=1.250 s=1.00
+[2026-01-09 12:14:38] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.90 q50=9.90 q90=49.73
+[2026-01-09 12:14:38] [TOPK] got=8 best_sched=4 best_total_mc=8672.2 avg_sched=3.75 p_med=1.00 p_max=1.00
+[2026-01-09 12:14:38] [MC_STATS] schedulable=4/5 mc/C min=1.47 med=2.51 p90=2.51 max=2.94 pr_med=1.00 pr_max=1.00
+[2026-01-09 12:14:38] [FILTER_SUM] total=5 have_mc=4 pass_p=4 snipes=0 cand_pre_merge=4 final=4/40
+[2026-01-09 12:14:38] [FILTER_FAIL] reason=no_mc trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448
+[2026-01-09 12:14:38] [INS_SUM] ins_fail=385 ins_warn=149 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:38] [INS_FAIL] trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:38] [INS_FAIL] trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:38] [INS_FAIL] trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:38] [INS_FAIL] trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:38] [INS_FAIL] trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:38] [INS_FAIL] trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:38] [INS_FAIL] trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448 vessel=HMS-V-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:38] [INS_FAIL] trade=Port<Mina Al Ahmadi Sea Island-98bd957bb207 (29.12694, 48.3056)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|7920|185372.04733412448 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:38] [INS_WARN] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|7920|126554.32621558671 vessel=HMS-V-1 ips=1 mc/C=2.24 mc=2430.7 C=1086.3 tail=False
+[2026-01-09 12:14:38] [INS_WARN] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|8232|69077.17146075828 vessel=HMS-A-0 ips=1 mc/C=3.21 mc=2717.5 C=847.7 tail=False
+[2026-01-09 12:14:38] [INS_WARN] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|8232|69077.17146075828 vessel=HMS-A-1 ips=1 mc/C=3.20 mc=2711.6 C=847.7 tail=False
+[2026-01-09 12:14:38] [INS_WARN] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|8232|69077.17146075828 vessel=HMS-V-2 ips=1 mc/C=2.95 mc=2498.0 C=847.7 tail=False
+[2026-01-09 12:14:38] [INS_WARN] trade=Port<Murmansk-9908e9ea9558 (69.06282, 33.22611)>|Port<Fawley-a9deff035346 (50.83877, -1.33259)>|8088|31908.622558653733 vessel=HMS-S-0 ips=1 mc/C=2.73 mc=2727.5 C=999.2 tail=False
+[2026-01-09 12:14:38] [INS_WARN] trade=Port<Murmansk-9908e9ea9558 (69.06282, 33.22611)>|Port<Fawley-a9deff035346 (50.83877, -1.33259)>|8088|31908.622558653733 vessel=HMS-S-2 ips=1 mc/C=2.73 mc=2729.0 C=999.2 tail=False
+[2026-01-09 12:14:38] [BIDS] n=4 min=1628.07 med=2538.41 max=2556.00 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:38] [BID_SAMPLE] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|7920|126554.32621558671 pr=0.75 C=1086.3 mc=1596.2 mc/C=1.47 bid=1628.1 bid/C=1.50 margin=0.020 undercut=0
+[2026-01-09 12:14:38] [BID_SAMPLE] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Castellon-08c2845d53fd (39.96503, 0.02471)>|8232|57735.30493882608 pr=1.00 C=1138.1 mc=2227.5 mc/C=1.96 bid=2272.1 bid/C=2.00 margin=0.020 undercut=0
+[2026-01-09 12:14:38] [BID_SAMPLE] trade=Port<Murmansk-9908e9ea9558 (69.06282, 33.22611)>|Port<Fawley-a9deff035346 (50.83877, -1.33259)>|8088|31908.622558653733 pr=1.00 C=999.2 mc=2505.9 mc/C=2.51 bid=2556.0 bid/C=2.56 margin=0.020 undercut=1
+[2026-01-09 12:14:38] [BID_SAMPLE] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|8232|69077.17146075828 pr=1.00 C=847.7 mc=2488.6 mc/C=2.94 bid=2538.4 bid/C=2.99 margin=0.020 undercut=1
+[2026-01-09 12:14:38] [RECEIVE] t=11 contracts=4
+[2026-01-09 12:14:38] [WIN_DETAIL] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Trieste-2aed856f346e (45.627, 13.76048)>|7920|126554.32621558671 pay=1628.1 pen=0.0 C=1086.3 r=1.50 my_bid=1628.1
+[2026-01-09 12:14:38] [WIN_DETAIL] trade=Port<Ras Tanura-601e8fb13c3c (26.65957, 50.22456)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|8232|69077.17146075828 pay=3198.3 pen=0.0 C=847.7 r=3.77 my_bid=2538.4
+[2026-01-09 12:14:38] [WIN_DETAIL] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Castellon-08c2845d53fd (39.96503, 0.02471)>|8232|57735.30493882608 pay=14999.4 pen=0.0 C=1138.1 r=13.18 my_bid=2272.1
+[2026-01-09 12:14:38] [WIN_DETAIL] trade=Port<Murmansk-9908e9ea9558 (69.06282, 33.22611)>|Port<Fawley-a9deff035346 (50.83877, -1.33259)>|8088|31908.622558653733 pay=13778.1 pen=0.0 C=999.2 r=13.79 my_bid=2556.0
+[2026-01-09 12:14:38] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:38] [POST_V5] won=4 scheduled=4 score=23772.9
+[2026-01-09 12:14:38] [LEDGER] exact=4 left=0 samples=5 low20=1.50 med=13.18 mkt_ewma 22.87->21.90 low_ewma 1.25->1.46 F_q50=9.90
+[2026-01-09 12:14:38] ctrl win_rate=0.864 target=0.900 bid_scale=1.041 (hist_b=44, hist_w=38)
+[2026-01-09 12:14:38] receive wins=4 scheduled=4 mkt_ratio_ewma=21.897 low_ratio_ewma=1.458 ledger_samples=5
+[2026-01-09 12:14:38] [ROUND] t=12 r=13 trades=5 mkt_ewma=21.897 low_ewma=1.458 s=1.00
+[2026-01-09 12:14:38] [PARAM] s=1.00 p_sel=0.20 max_bids=40 markup=0.020 safety=0.040 undercut=0.016 min_profit=0.020 bid_scale=1.041 TOPK_K=8 M_BASE=12 MAX_IP=12 q10=0.91 q50=9.90 q90=49.09
+[2026-01-09 12:14:39] [TOPK] got=8 best_sched=4 best_total_mc=8867.2 avg_sched=4.00 p_med=0.88 p_max=1.00
+[2026-01-09 12:14:39] [MC_STATS] schedulable=5/5 mc/C min=1.16 med=3.35 p90=3.38 max=7.39 pr_med=0.88 pr_max=1.00
+[2026-01-09 12:14:39] [FILTER_SUM] total=5 have_mc=5 pass_p=5 snipes=0 cand_pre_merge=5 final=5/40
+[2026-01-09 12:14:39] [FILTER_FAIL] reason=mc_over_c trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Escombreras-8ff2f5149d51 (37.56818, -0.96804)>|8976|198703.6600924413 pr=0.88 C=876.5 mc=2964.9 mc/C=3.38
+[2026-01-09 12:14:39] [FILTER_FAIL] reason=mc_over_c trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 pr=0.62 C=373.1 mc=2757.9 mc/C=7.39
+[2026-01-09 12:14:39] [FILTER_FAIL] reason=mc_over_c trade=Port<Tanjung Pelepas-71ae886ba35d (1.34033, 103.54542)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|8880|114876.49893571401 pr=0.50 C=812.2 mc=2718.2 mc/C=3.35
+[2026-01-09 12:14:39] [INS_SUM] ins_fail=398 ins_warn=130 fail_samples=8 warn_samples=6
+[2026-01-09 12:14:39] [INS_FAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 vessel=HMS-S-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:39] [INS_FAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 vessel=HMS-S-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:39] [INS_FAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 vessel=HMS-S-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:39] [INS_FAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 vessel=HMS-A-0 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:39] [INS_FAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 vessel=HMS-A-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:39] [INS_FAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 vessel=HMS-A-2 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:39] [INS_FAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 vessel=HMS-V-0 base_ct=9139.3 ips=3/12 tried=7 verify_false=7 dt_prune=0 tail=False
+[2026-01-09 12:14:39] [INS_FAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 vessel=HMS-V-1 base_ct=0.0 ips=1/12 tried=2 verify_false=2 dt_prune=0 tail=False
+[2026-01-09 12:14:39] [INS_WARN] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|9048|61085.141019887335 vessel=HMS-S-0 ips=1 mc/C=2.90 mc=2981.4 C=1029.5 tail=False
+[2026-01-09 12:14:39] [INS_WARN] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|9048|61085.141019887335 vessel=HMS-S-1 ips=1 mc/C=2.89 mc=2976.5 C=1029.5 tail=False
+[2026-01-09 12:14:39] [INS_WARN] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|9048|61085.141019887335 vessel=HMS-S-2 ips=1 mc/C=2.90 mc=2983.0 C=1029.5 tail=False
+[2026-01-09 12:14:39] [INS_WARN] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|9048|61085.141019887335 vessel=HMS-A-0 ips=1 mc/C=2.94 mc=3029.3 C=1029.5 tail=False
+[2026-01-09 12:14:39] [INS_WARN] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|9048|61085.141019887335 vessel=HMS-A-1 ips=1 mc/C=2.94 mc=3023.4 C=1029.5 tail=False
+[2026-01-09 12:14:39] [INS_WARN] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|9048|61085.141019887335 vessel=HMS-A-2 ips=1 mc/C=2.89 mc=2972.1 C=1029.5 tail=False
+[2026-01-09 12:14:39] [BIDS] n=5 min=770.22 med=2774.21 max=3024.21 s=1.00 p_sel=0.20 markup=0.020 safety=0.040 undercut=0.016
+[2026-01-09 12:14:39] [BID_SAMPLE] trade=Port<Taman-9f1125c5b4b6 (45.12656, 36.66068)>|Port<Bourgas-16d93a3bfdd3 (42.45578, 27.49359)>|8688|71975.5543005505 pr=1.00 C=648.6 mc=755.1 mc/C=1.16 bid=770.2 bid/C=1.19 margin=0.020 undercut=0
+[2026-01-09 12:14:39] [BID_SAMPLE] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|9048|61085.141019887335 pr=1.00 C=1029.5 mc=2719.8 mc/C=2.64 bid=2774.2 bid/C=2.69 margin=0.020 undercut=1
+[2026-01-09 12:14:39] [BID_SAMPLE] trade=Port<Tanjung Pelepas-71ae886ba35d (1.34033, 103.54542)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|8880|114876.49893571401 pr=0.50 C=812.2 mc=2718.2 mc/C=3.35 bid=2772.5 bid/C=3.41 margin=0.020 undercut=1
+[2026-01-09 12:14:39] [BID_SAMPLE] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Escombreras-8ff2f5149d51 (37.56818, -0.96804)>|8976|198703.6600924413 pr=0.88 C=876.5 mc=2964.9 mc/C=3.38 bid=3024.2 bid/C=3.45 margin=0.020 undercut=1
+[2026-01-09 12:14:39] [BID_SAMPLE] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 pr=0.62 C=373.1 mc=2757.9 mc/C=7.39 bid=2813.1 bid/C=7.54 margin=0.020 undercut=1
+[2026-01-09 12:14:39] [RECEIVE] t=12 contracts=5
+[2026-01-09 12:14:39] [WIN_DETAIL] trade=Port<Taman-9f1125c5b4b6 (45.12656, 36.66068)>|Port<Bourgas-16d93a3bfdd3 (42.45578, 27.49359)>|8688|71975.5543005505 pay=3663.2 pen=0.0 C=648.6 r=5.65 my_bid=770.2
+[2026-01-09 12:14:39] [WIN_DETAIL] trade=Port<Novorossiysk-45a5021eee47 (44.7148, 37.81347)>|Port<Augusta-facbcc9badd3 (37.20765, 15.20693)>|9048|61085.141019887335 pay=9560.5 pen=0.0 C=1029.5 r=9.29 my_bid=2774.2
+[2026-01-09 12:14:39] [WIN_DETAIL] trade=Port<Tanjung Pelepas-71ae886ba35d (1.34033, 103.54542)>|Port<Fujairah-ca26fade3b91 (25.16933, 56.3799)>|8880|114876.49893571401 pay=25029.5 pen=0.0 C=812.2 r=30.82 my_bid=2772.5
+[2026-01-09 12:14:39] [WIN_DETAIL] trade=Port<Puerto Jose-bd9e62d67225 (10.09938, -64.8722)>|Port<Escombreras-8ff2f5149d51 (37.56818, -0.96804)>|8976|198703.6600924413 pay=106390.3 pen=0.0 C=876.5 r=121.38 my_bid=3024.2
+[2026-01-09 12:14:39] [WIN_DETAIL] trade=Port<Kiire-c1d11e2429fa (31.38772, 130.55385)>|Port<Singapore-bfe15a9e31a0 (1.32447, 103.82839)>|9000|154299.49523851255 pay=64176.4 pen=0.0 C=373.1 r=172.03 my_bid=2813.1
+[2026-01-09 12:14:40] [POST_DROP] apply_schedules returned None
+[2026-01-09 12:14:40] [POST_V5] won=5 scheduled=4 score=168910.1
+[2026-01-09 12:14:40] [LEDGER] exact=5 left=0 samples=5 low20=5.65 med=30.82 mkt_ewma 21.90->22.79 low_ewma 1.46->1.46 F_q50=10.47
+[2026-01-09 12:14:40] ctrl win_rate=0.878 target=0.900 bid_scale=1.041 (hist_b=49, hist_w=43)
+[2026-01-09 12:14:40] receive wins=5 scheduled=4 mkt_ratio_ewma=22.789 low_ratio_ewma=1.458 ledger_samples=5

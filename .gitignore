@@ -1,12 +1,12 @@
 /additional_lab4_files.zip
-/batch_run_full.log
-/batch_run_summary copy.txt
-/batch_run_summary.txt
-/company1_debug copy 2.log
-/company1_debug copy.log
-/company1_debug_loose_market.log
-/company1_debug_medium.log
-/company1_debug_tense_market.log
+# /batch_run_full.log
+# /batch_run_summary copy.txt
+# /batch_run_summary.txt
+# /company1_debug copy 2.log
+# /company1_debug copy.log
+# /company1_debug_loose_market.log
+# /company1_debug_medium.log
+# /company1_debug_tense_market.log
 /figure.py
 /figure1_table_facets.png
 /figure2_log_strategy_compare_3markets.png
@@ -30,13 +30,13 @@
 /mable_resources.zip
 # /main_competition_playground.py
 /main_competition_playground2.py
-/metrics_competition_1300626937552_2026-01-06-00-47-46.json
-/metrics_competition_1308483501584_2026-01-09-13-00-11.json
-/metrics_competition_1538372710608_2026-01-06-14-26-20.json
-/metrics_competition_1564035266448_2026-01-06-00-34-21.json
-/metrics_competition_1596247128784_2026-01-06-00-52-23.json
-/metrics_competition_1630589746192_2026-01-08-01-51-20.json
-/metrics_competition_1637048727696_2026-01-06-00-29-51.json
+# /metrics_competition_1300626937552_2026-01-06-00-47-46.json
+# /metrics_competition_1308483501584_2026-01-09-13-00-11.json
+# /metrics_competition_1538372710608_2026-01-06-14-26-20.json
+# /metrics_competition_1564035266448_2026-01-06-00-34-21.json
+# /metrics_competition_1596247128784_2026-01-06-00-52-23.json
+# /metrics_competition_1630589746192_2026-01-08-01-51-20.json
+# /metrics_competition_1637048727696_2026-01-06-00-29-51.json
 /metrics_competition_1728123462160_2026-01-08-03-16-46.json
 /metrics_competition_1746569361936_2026-01-08-16-03-22.json
 /metrics_competition_1746571247376_2026-01-08-16-02-04.json
@@ -71,9 +71,9 @@
 /metrics_competition_2028424704464_2026-01-08-03-05-28.json
 /metrics_competition_2030295510480_2026-01-06-00-30-52.json
 /metrics_competition_2068441406352_2026-01-08-08-09-52.json
-/metrics_competition_2068690450256_2026-01-09-01-31-32.json
-/metrics_competition_2068693168912_2026-01-09-01-30-11.json
-/metrics_competition_2068695611664_2026-01-09-01-30-50.json
+# /metrics_competition_2068690450256_2026-01-09-01-31-32.json
+# /metrics_competition_2068693168912_2026-01-09-01-30-11.json
+# /metrics_competition_2068695611664_2026-01-09-01-30-50.json
 /metrics_competition_2070820257104_2026-01-08-08-08-50.json
 /metrics_competition_2070841212880_2026-01-08-08-09-20.json
 /metrics_competition_2120232090768_2026-01-06-00-55-02.json
@@ -116,13 +116,13 @@
 /metrics_competition_3138139324304_2026-01-08-03-02-28.json
 /metrics_competition_3170354134608_2026-01-08-01-54-59.json
 /objtest.py
-/patch_group4.py
-/ports.csv
-/port_cargo_weight_distribution.csv
-/port_trade_frequency_distribution.csv
-/precomputed_routes.pickle
-/routing_graph_world_mask.pkl
+# /patch_group4.py
+# /ports.csv
+# /port_cargo_weight_distribution.csv
+# /port_trade_frequency_distribution.csv
+# /precomputed_routes.pickle
+# /routing_graph_world_mask.pkl
 /save
 /save copy
-/time_transition_distribution.csv
+# /time_transition_distribution.csv
 /__pycache__

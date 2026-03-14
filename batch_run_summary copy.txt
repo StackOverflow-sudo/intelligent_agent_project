@@ -1,0 +1,16 @@
+Batch run summary (n=5, seed0=0, target=Company4)
+
+Per-seed results:
+[seed=0] wins=4 income=-20811.840 rev=3287.847 cost=24099.688 pen=0.000  metrics=metrics_competition_2286917737168_2026-01-04-05-15-38.json
+[seed=1] wins=5 income=-19449.555 rev=4578.669 cost=24028.224 pen=0.000  metrics=metrics_competition_2286141672976_2026-01-04-05-16-12.json
+[seed=2] wins=5 income=-20686.811 rev=3676.101 cost=24362.912 pen=0.000  metrics=metrics_competition_2286568431504_2026-01-04-05-16-36.json
+[seed=3] wins=4 income=-20507.973 rev=3517.758 cost=24025.731 pen=0.000  metrics=metrics_competition_2287823533264_2026-01-04-05-16-56.json
+[seed=4] wins=4 income=-20811.840 rev=3287.847 cost=24099.688 pen=0.000  metrics=metrics_competition_2285873392912_2026-01-04-05-17-16.json
+
+=== SUMMARY (mean ± std) ===
+wins   : 4.40 ± 0.55
+income : -20453.60 ± 574.92
+penalty: 0.00 ± 0.00
+revenue: 3669.64 ± 534.08
+cost   : 24123.25 ± 138.82
+inc/win: -4712.04 ± 644.27
