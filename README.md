@@ -1,4 +1,4 @@
-# COMP6203 Lab 4 -- Maritime Shipping Agent
+# COMP6203 -- Maritime Shipping Agent
 
 ## Overview
 
@@ -146,7 +146,7 @@ Example project structure:
     ├── bidding_strategy.py
     ├── market_learning.py
     │
-    ├── run_simulation.py
+    ├── main_playground.py
     │
     ├── report_group1.pdf
     ├── README.md
